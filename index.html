@@ -1,0 +1,321 @@
+<html>
+
+<head>
+    <title>CANARA BANK </title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            width: 1200px;
+        }
+
+        input[type=text] {
+            padding: 6px;
+            margin-top: 10px;
+            margin-right: 16px;
+            border: none;
+            font-size: 17px;
+            width: 315px;
+        }
+
+        li a,
+        .a2 {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .a1:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.a1 {
+            display: inline-block;
+        }
+
+        .a3 {
+            display: none;
+            position: absolute;
+            background-color: rgb(77, 162, 211);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .a3 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .a3 a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .a1:hover .a3 {
+            display: block;
+        }
+
+        li a,
+        .a5 {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .a4:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.a4 {
+            display: inline-block;
+        }
+
+        .a6 {
+            display: none;
+            position: absolute;
+            background-color: rgb(77, 162, 211);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .a6 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .a6 a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .a4:hover .a6 {
+            display: block;
+        }
+
+        li a,
+        .a8 {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .a7:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.a7 {
+            display: inline-block;
+        }
+
+        .a9 {
+            display: none;
+            position: absolute;
+            background-color: rgb(77, 162, 211);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .a9 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .a9 a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .a7:hover .a9 {
+            display: block;
+        }
+
+        li a,
+        .a11 {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .a10:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.a10 {
+            display: inline-block;
+        }
+
+        .a10:hover .a12 {
+            display: block;
+        }
+
+        .a13 {
+            float: right;
+            width: 90px;
+            height: 30px;
+            padding-top: 5px;
+            margin-top: 12px;
+            margin-right: 15px;
+        }
+
+        .a13 option.hover {
+            background-color: #f1f1f1;
+        }
+
+        .x {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="display:flex">
+        <header>
+            <div style="display:flex"><img src="image/logo1.jpeg" style="width:300px">
+                <ul>
+                    <li class="a1">
+                        <a class="a2">Personel Banking</a>
+                        <div class="a3">
+                            <a href="#">Savings and Deposits</a>
+                            <a href="#">Loan products</a>
+                            <a href="#">Mutual Funds</a>
+                            <a href="#">Insurance Business</a>
+                        </div>
+                    </li>
+                    <li class="a4">
+                        <a class="a5">Corporate Banking</a>
+                        <div class="a6">
+                            <a href="#">Accounts and Deposits</a>
+                            <a href="#">Supply Chains</a>
+                            <a href="#">Canara Etax</a>
+                            <a href="#">Merchant Banking</a>
+                        </div>
+                    </li>
+                    <li class="a7">
+                        <a class="a8">NRI Banking</a>
+                        <div class="a9">
+                            <a href="#">Deposite Products</a>
+                            <a href="#">Investment Facilities</a>
+                            <a href="#">Consultency Services</a>
+                            <a href="#">Other Services</a>
+                            <a href="#">NRI News</a>
+                        </div>
+                    </li>
+                    <li class="x">
+                        <a onclick="location.href ='./page.html'">NET Banking</a>
+                    </li>
+                    <li class="a10">
+                        <a href="#GALLERY" class="a11">Gallery</a>
+                    </li>
+                    <input type="text" placeholder="Search..">
+                    <div class="a13">
+                        <select name="language" id="language" style="background-color: whitesmoke; height:27px;">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="tamil">Tamill</option>
+                        </select>
+                    </div>
+                </ul>
+        </header>
+    </div>
+    <div style="display:flex;">
+        <div><img src="image/img.jpeg" style="width:550px;"></div>
+        <div style="text-align: center;width: 700px;font-size: 16px;padding-left:70px;padding-top: 50px;">
+            <h2>Canara Bank has several firsts to its credit. These include:</h2>
+            <div align='left'
+                style="padding: 20px 0;padding-left: 100px;font-size: 20px; background-color: yellowgreen;border-radius: 15px;">
+                <li>Launching of Inter-City ATM Network</li>
+                <li>Obtaining ISO Certification for a Branch</li>
+                <li>Articulation of Good Banking – Banks Citizen Charter</li>
+                <li>Commissioning of Exclusive Mahila Banking Branch</li>
+                <li>Launching of Exclusive Subsidiary for IT Consultancy</li>
+                <li>Issuing credit card for farmers</li>
+                <li>Providing Agricultural Consultancy Services</li>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>PROFILE</h3>
+        <div style="font-size: 16px; background-color:antiquewhite;padding: 15px;border-radius: 5px;">
+            <p> The Bank has gone through the various phases of its growth trajectory over hundred years of its
+                existence. Growth of Canara Bank was phenomenal, especially after nationalization in the year 1969,
+                attaining the status of a national level player in terms of geographical reach and clientele segments.
+                Eighties was characterized by business diversification for the Bank. In June 2006, the Bank completed a
+                century of operation in the Indian banking industry. The eventful journey of the Bank has been
+                characterized by several memorable milestones. Today, Canara Bank occupies a premier position in the
+                comity of Indian banks.
+                Over the years, the Bank has been scaling up its market position to emerge as a major Financial
+                Conglomerate with as many as ten subsidiaries/sponsored institutions/joint ventures in India and abroad.
+                As at June 2021, Canara Bank services over 10.55 crore customers through a network of 9877 branches and
+                13124 ATMs/Recycler spread across all Indian states and Union Territories.</p>
+            <p>
+                Not just in commercial banking, the Bank has also carved a distinctive mark, in various corporate social
+                responsibilities, namely, serving national priorities, promoting rural development, enhancing rural
+                self-employment through several training institutes and spearheading financial inclusion objective.
+                Promoting an inclusive growth strategy, which has been formed as the basic plank of national policy
+                agenda today, is in fact deeply rooted in the Banks founding principles. "A good bank is not only the
+                financial heart of the community, but also one with an obligation of helping in every possible manner to
+                improve the economic conditions of the common people". These insightful words of our founder continue to
+                resonate even today in serving the society with a purpose. The growth story of Canara Bank in its first
+                century was due, among others, to the continued patronage of its valued customers, stakeholders,
+                committed staff and uncanny leadership ability demonstrated by its leaders at the helm of affairs. We
+                strongly believe that the next century is going to be equally rewarding and eventful not only in service
+                of the nation but also in helping the Bank emerge as a "Preferred Bank" by pursuing global benchmarks in
+                profitability, operational efficiency, asset quality, risk management and expanding the global reach.
+            </p>
+        </div>
+    </div>
+    <div padding id="GALLERY">
+        <h4>GALLERY</h4>
+        <img src="image/logo-3.jpeg" style="width:300px; margin-bottom:30px;">
+        <img src="image/pic1.jpeg"style="width:300px; margin-bottom:30px; padding-left:350px">
+        <img src="image/pic2.jpeg"style="width:300px; margin-bottom:30px; padding-left:350px">
+        <img src="image/pic4.jpeg" style="width:300px; margin-bottom:30px; padding-left:350px">
+    </div>
+    <footer style="display:flex; background-color: rgb(113, 176, 228);">
+        <h3 style="padding:10px;">Got any Questions?</h3>
+        <h3 style="padding:10px;">Call us Today!</h3>
+        <h3 style="padding:10px;">Toll Free Number - 1234 234 5678</h3>
+        <div style="width:800px;">
+            <p style="padding-left:200px;color:whitesmoke">Customers are requested to call on our
+                mentioned Toll Free Numbers only for any
+                complaints/issues. Bank shall not be
+                responsible for any consequences arising
+                out of customers calling any other
+                unverified numbers.</p>
+        </div>
+        
+    </footer>
+
+
+</body>
+
+</html>
